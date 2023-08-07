@@ -36,7 +36,18 @@ Guiding questions:
 Optional: What if there were four lines operating at the same time, how would you change your code to handle this?
 
 
-##   Can you discuss better data structures for these operations?
+
+## * How to Test [ Unit Test ] 
+
+```go
+$   git clone https://github.com/otyang/concierge
+$   cd concierge/
+$   go test -v
+```
+
+
+
+## * Can you discuss better data structures for these operations?
 
 Here are some better data structure choices for the given operations in the Baggage Concierge:
 
@@ -62,11 +73,3 @@ The choice of much better data structures for these kind of operations are to a 
 The right data structures and algorithms can significantly impact the performance, scalability, and maintainability of the Baggage Concierge system as it evolves over time.
 
 
-# How to Run [ Unit Test ] 
-
-```go
-$   git clone https://github.com/otyang/concierge
-$   cd concierge/
-$   go test -v
-```
- 
