@@ -62,7 +62,11 @@ The choice of much better data structures for these kind of operations are to a 
 The right data structures and algorithms can significantly impact the performance, scalability, and maintainability of the Baggage Concierge system as it evolves over time.
 
 
-# Run Unit Test
-1.  Clone the github repository
-2.  CD into the cloned repository
-3.  Run `go test -v`
+# How to Run [ Unit Test ] 
+
+```go
+$   git clone https://github.com/otyang/concierge
+$   cd concierge/
+$   go test -v
+```
+ 
