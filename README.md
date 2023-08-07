@@ -43,8 +43,11 @@ Optional: What if there were four lines operating at the same time, how would yo
 $   git clone https://github.com/otyang/concierge
 $   cd concierge/
 $   go test -v
+$   go test -bench .
 ```
 
+- 3rd line runs unit test
+- 4th runs benchmark test
 
 
 ## * Can you discuss better data structures for these operations?
