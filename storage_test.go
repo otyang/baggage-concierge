@@ -24,7 +24,7 @@ func TestStorage_Store(t *testing.T) {
 	_, err = concierge.Store(Bag{Size: CheckedBag})
 	assert.NoError(t, err)
 
-	// Test exceeding storage capacity for checked bags
+	// Test exceeding storage capacity for checked bags (not more than 100 as stated in task. i.e 100 finite bins)
 	defer func() {
 		if r := recover(); r == nil {
 			t.Errorf("The code did not panic as expected when exceeding checked bag capacity")
