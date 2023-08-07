@@ -46,8 +46,8 @@ $   go test -v
 $   go test -bench .
 ```
 
-- 3rd line runs unit test
-- 4th runs benchmark test
+-* 3rd line runs unit test
+-* 4th runs benchmark test
 
 
 ## * Can you discuss better data structures for these operations?
